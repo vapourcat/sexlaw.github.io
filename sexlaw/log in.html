@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入</title>
+    <link rel="stylesheet" href="login.css">
+    <script type="text/javascript" src="verification code.js"></script>
+</head>
+<body bgcolor="#ebe7ce">
+    <form id="form1" runat="server">
+        <center><div id="wrapper" class="MainBg">
+            <!-- Main -->
+            <div id="main" class="MainContant">
+                <div class="inner Fullwidth">
+
+
+                        <header class="header">
+                           <img src="https://img.onl/o1xcCo" alt="" />
+                            <span>  
+                                <br/>
+                                管理登入
+                                <br/><br/>
+                            </span>
+                        </header>
+
+
+                    <div class="row uniform">
+<!--=====================================================帳號開始=====================================================-->
+                        <div class="12u">
+                            <div class="form-group">
+                                <label for="txtID"> 帳號:</label>
+                                <input id="txtID" type="text" name="LoginId" placeholder="請輸入帳號" CssClass="form-control-User" />
+                            </div>
+                        </div>
+<!--=====================================================帳號結束=====================================================-->    
+
+<!--=====================================================密碼開始=====================================================-->
+                        <div class="12u">
+                            <label for="txtPW">
+                                密碼:
+                            </label>
+                            <input id="txtPW" type="password" name="Password" placeholder="請輸入密碼" CssClass="form-control-Lock" />
+                        </div>
+<!--=====================================================密碼結束=====================================================-->
+
+<!--=====================================================驗證碼開始=====================================================-->
+                        <div class="12u">
+                            <label for="txtID" class="code_word"> 
+                                驗證碼:
+                            </label>
+                            <input id="inputCode" type="text" class="code_text">
+                            <span id="checkCode" class="code"  onclick="createCode(4)" ></span>
+                            <span class="mienai" onclick="createCode(4)">看不清楚換一張</span>
+                            <input class="code_sure" type="button" onclick="validateCode()"  value="确定" />
+                            <br><br><br><br>
+                        </div>
+<!--=====================================================驗證碼結束=====================================================-->
+                        <div class="12u text-center">
+                            <form action="fourm.html">
+                                <input type="image" name="Send" id="submit" src="https://img.onl/WHQfz6"/></center>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
+</html>

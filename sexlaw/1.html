@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跨性別聯盟</title>
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="menu_hbg.css">    
+    <link rel="stylesheet" href="drop-down-menu.css">
+<!--=======================================================================================================-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+    <button type="button" id="BackTop" class="toTop-arrow"></button>
+    <script>
+        $(function(){
+            $('#BackTop').click(function(){ 
+                $('html,body').animate({scrollTop:0}, 333);
+            });
+            $(window).scroll(function() {
+                if ( $(this).scrollTop() > 300 ){
+                    $('#BackTop').fadeIn(222);
+                } else {
+                    $('#BackTop').stop().fadeOut(222);
+                }
+            }).scroll();
+        });
+    </script>
+
+    <button type="button" id="BackTop" class="toTop-arrow"></button>
+    <script>
+        $(function(){
+            $('#BackTop').click(function(){ 
+                $('html,body').animate({scrollTop:0}, 333);
+            });
+            $(window).scroll(function() {
+                if ( $(this).scrollTop() > 300 ){
+                    $('#BackTop').fadeIn(222);
+                } else {
+                    $('#BackTop').stop().fadeOut(222);
+                }
+            }).scroll();
+        });
+    </script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-100574978-1', 'auto');
+        ga('send', 'pageview');
+
+        (function () {
+            var options = {
+                facebook: "109117218035191", // Facebook page ID
+                line: "//line.me/ti/p/Xb-z0YWlV8", // Line QR code URL
+                call_to_action: "", // Call to action
+                button_color: "#129BF4", // Color of button
+                position: "left", // Position may be 'right' or 'left'
+                order: "line,facebook", // Order of buttons
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+
+    <script>
+        function toggleImage() {
+            var homeImage = document.querySelector(".drop-down-menu img");
+            var image = document.getElementById("ryuna-image");
+            var checkbox = document.getElementsByClassName("checkbox")[0];
+        
+            if (checkbox.checked) {
+                image.style.display = "inline-block";
+                image.style.marginLeft = homeImage.style.marginLeft;
+                image.style.marginTop = homeImage.style.marginTop;
+            } else {
+                image.style.display = "none";
+            }
+        }        
+    </script>
+    <script>
+        window.addEventListener('scroll', function() {
+            var footer = document.querySelector('.footer');
+            var scrollPosition = window.pageYOffset;
+        
+            if (scrollPosition > 300) {
+                footer.classList.add('show-footer');
+            } else {
+                footer.classList.remove('show-footer');
+            }
+        });        
+    </script>
+<!--========================================================================================================-->
+<style>
+    .text{
+        margin-left: 440px;
+        margin-right: 440px;
+    }
+    .footer {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333333;
+        padding: 30px;
+        color: white;
+        display: flex;
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+    
+    .show-footer {
+        opacity: 1;
+    }
+    
+    .footer-item {
+        width: 33.33%;
+    }
+</style>
+<!--======================================================================================================= -->
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" onclick="toggleImage()" />
+        <div class="hamburger-lines">
+            <span class="line line1"></span> <!--三條線-->
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div> 
+        
+        <!-- margin-left: 102px; margin-top:8px -->
+        <div class="header">
+            <h1 class="logo">
+                <ul class="drop-down-menu">
+                    <li>
+                        <div style="margin-right: 960px;">
+                            <img src="home.png" width="85" title="首頁">
+                        </div>
+                    </li>
+                    <li><a href="#">相關議題</a></li>
+                    <li><a href="#">公益訴訟</a></li>
+                    <li><a href="#">採取行動</a></li>
+                    <li><a href="log in.html">登入</a></li>
+                </ul>
+            </h1>
+        </div>
+
+        <div class="menu-items">
+            <a href="index.html"><img id="ryuna-image" src="home.png" width="85" style="display: none;"></a>
+            <li style="margin-right:50px"><a href="log in.html">登入</a></li>
+            <li style="margin-right:50px"><a href="#">論壇</a></li>
+            <li style="margin-right:50px"><a href="#">相關議題</a></li>
+            <li style="margin-right:50px"><a href="#">公益訴訟</a></li>
+            <li style="margin-right:50px"><a href="#">採取行動</a></li>
+        </div>
+            </div>
+        </div>
+    </nav>
+<!-----------------------------------------------------------END----------------------------------------------------------->
+<center>
+    <p style="margin-top: 50px; font-size:30px"><b>跨性別張男面試遭刁難案</b></p><br>
+    <img src="東方美.jpg"><br><br>
+</center>
+    <p class="text">
+        跨性別者應徵櫃姐卻遭對方要求穿男性制服刁難！桃園一名張姓民眾先前到東方美企業應徵櫃姐，面試過程中他身穿女裝，但沒有隱瞞自己生理性別為男性。不料，東方美公司卻向他表示，「如果同意工作時穿著男性制服就可以談、若堅持穿女性制服就抱歉」，張感到遭受歧視並依《性別工作平等法》提出申訴，事後勞動部依法裁處東方美30萬元；東方美不服提上訴，遭台北高等行政法院判敗訴。全案可上訴。<br><br>
+        2020年8月20日，性別認同為女性的張姓民眾，到桃園大江購物中心的代理佳麗寶（Kanebo）的東方美企業進行面試。過程中張身穿女裝，但並無隱瞞自己生理為男性的事實；面試結束後，東方美公司告知他，「如果同意工作時穿著男性制服就可以談，如堅持穿著女性制服就只好說抱歉。」張認為，自己遭到性別歧視，憤而投訴東方美違反性平法。<br><br>
+        勞動部認定，東方美公司違法並依法裁處30萬元，另公布企業名稱與負責人姓名；東方美不滿提起上訴，主張勞動部未盡調查之責，僅採張的片段說詞，「主任直接問我生理性別是否完全為男性，我都直接沒有回應，過程中沒有詳細問我工作經驗，僅有詢問工作地點，也沒有問我對東方美公司的認識，問我一下薪資結構、排班、服裝。」認為勞動部有失偏頗。<br><br>張事後也向勞動部表示，後續主任用通訊軟體告知他，堅持女生制服就要跟我說抱歉，「但是面試過程都沒有提及制服因素，我覺得遭受不尊重。」對此，東方美則強調，在面試過程中一開始就有先向張講明薪資結構、排班、制服等相關細節，並向張表示，「因公司制服是短版的，詢問他是否可以接受，並詢問他是否方便拍攝全身照傳回台北公司。」<br><br>
+        東方美表示，東方美公司為化妝品保養業，於各大百貨公司均設有專櫃，穿著制服是各大百貨業者的要求，因此會要求員工穿制服以具整體性，而制服也是一般大眾客觀辨認身分、性別等客觀判斷，並非是性別歧視。<br><br>
+        東方美指出，張應徵的工作內容是銷售化妝品與保養品，除銷售相關產品外，也可能須為顧客單獨進行美容服務，銷售時多需要將產品用在顧客的臉上、脖頸等位置，與顧客接觸多直接用手，或是以小面積的化妝棉、粉撲及刷具等，容易與顧客有親密接觸，更有可能是顧客換穿平口浴裙，需與客戶單獨一對一進行護膚體驗，因職業特殊性，顧客往往是選擇與生理性別相同的員工服務，主張公司在設計男、女制服之初，就是要讓消費者輕易辨識的主要因素，並不構成歧視行為。<br><br>東方美不服，提起上訴。台北高等行政法院審理後認為，負責主任面試張後，以東方美在各大百貨設櫃，因應百貨公司要求，因此會考量員工穿著制服之整體性，以作為錄取員工的標準之一，並無歧視。但現今化妝品業以屬於不分性別的時尚產業，該產業的消費群眾已不再落入性別二元之刻板印象，即「男性應著男裝、女性應著女裝」，作為劃分化妝品銷售員專著制服的情形，認定東方美公司違反違反性平法事實明確，判東方美敗訴。全案可上訴。
+        <br><br>
+    </p>
+
+    <div class="footer">
+        <div class="footer-item">
+            <h3><strong>聯絡資訊</strong></h3><br>
+            社團法人台灣同志諮詢熱線協會<br>
+            行政電話：02-2392-1969<br>
+            傳真電話：02-2392-1994<br>
+            辦公時間：週一至週五 下午兩點到晚上十點<br>
+            協會地址：100028 臺北市羅斯福路二段70號12樓<br>
+            (捷運古亭站7號出口)<br>
+            聯絡信箱：hotline@hotline.org.tw
+            南部辦公室<br>
+            行政電話：07-281-1265<br>
+            傳真電話：07-281-6602<br>
+            辦公時間：週一至週五 下午兩點到晚上十點<br>
+            協會地址：800318 高雄市新興區中山二路472號12樓之7<br>
+            聯絡信箱：hotlinesouth@hotline.org.tw
+        </div>
+        <div class="footer-item">
+            <h3><strong>社群媒體</strong></h3><br>
+            <a href="#"><img src="fb.png"></a>
+            <a href="#"><img src="ig.png"></a>
+            <a href="#"><img src="yt.png"></a>
+            <a href="#"><img src="twi.png"></a>
+        </div>
+    </div>
